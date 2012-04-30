@@ -1,5 +1,3 @@
-== Usage ==
-
 In bookmarklet.coffee, replace the contents of runBookmarklet with your code. Edit at will. 
 The initialization will load jQuery onto the page if it's missing. 
 A global search and replace for window.Bookmarklet to put it in a more meaningful namespace like "window.YourProjectName" would be a nice touch.
