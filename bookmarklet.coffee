@@ -1,5 +1,6 @@
 if !window.Bookmarklet?
   window.Bookmarklet = 
+    popup: bookmarklet_popup
     init: ->
       v = "1.3.2"
       if !jQuery? || window.jQuery.fn.jquery < v
@@ -16,6 +17,7 @@ if !window.Bookmarklet?
 
     runBookmarklet: ->
       # custom code goes here
+      this.popup.location = "http://google.com"
       true
 
 window.Bookmarklet.init()

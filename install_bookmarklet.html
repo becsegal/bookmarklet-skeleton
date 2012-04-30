@@ -1,6 +1,11 @@
 <html>
 <head></head>
 <body>
-<a href="javascript:(function(){document.body.appendChild(document.createElement('script')).src='http://example.com/bookmarklet.js?r='+Math.random();})();">Bookmarklet</a>
+<p>
+  <a href="javascript:(function(){document.body.appendChild(document.createElement('script')).src='http://example.com/bookmarklet.js?r='+Math.random();})();">Bookmarklet</a>
+</p>
+<p>
+  <a href="javascript:(function(){bookmarklet_popup=window.open('about:blank','bookmarklet_popup');document.body.appendChild(document.createElement('script')).src='http://example.com/bookmarklet.js?r='+Math.random();})();">Popup Bookmarklet</a>
+</p>
 </body>
 </html>
