@@ -17,7 +17,6 @@ if !window.Bookmarklet?
 
     runBookmarklet: ->
       # custom code goes here
-      this.popup.location = "http://google.com"
       true
 
 window.Bookmarklet.init()
